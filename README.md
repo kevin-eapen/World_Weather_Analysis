@@ -22,6 +22,7 @@ __WeatherPy Database__
 |8      |Pangnirtung       |CA     |66.1451 |-65.7125 |39.2    |100     |100       |6.91      |light rain                 |
 |9      |Tautira           |PF     |-17.7333|-149.15  |76.71   |78      |97        |25.97     |light rain                 |
 <br>
+
 ## Vacation_Search
 I created user inputed search criteria to filter the weather dataframe by minimum and maximum temperature desired for vacation destination. I inputed the search criteria for city desinations where the minimum temperature desired was 60.0 F° and the maximum temperature desired was 90.0 F°. There were 404 resulting city destinations without any missing data values. I then used the Google Maps API to search for the nearest hotel to each city coordinate-pair and saved the resulting weather database with the hotel name found for each city (367 cities with hotel names found). Below is a table displaying a sample output (first 10 rows) of the hotel and vacation weather database (saved as 'WeatherPy_vacation.csv')
 
@@ -48,6 +49,7 @@ __WeatherPy Vacation Map__
 ![file](Vacation_Search/WeatherPy_vacation_map.png)
 <br>
 <br>
+
 ## Vacation_Itinerary
 Next, I created a feature for the hypothetical search engine where the user may choose four cities within the same country from the list of potential travel destinations to create a travel iternary for. The iternary will include weather information and markers on a map showing the destinations locations. Additionally, the itinerary will contain driving directions for a roadtrip looping back to the starting city destination, using the remainder 3 cities as waypoints for stops. A sample of a vacation itinerary for four cities in Spain, from our potential cities list, is displayed in the maps (created using gmaps) below.
 
