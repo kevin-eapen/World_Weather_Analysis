@@ -1,7 +1,7 @@
 # World Weather Analysis
 
 ## Overview
-In this project, I performed data analyis, visualization, and statistical skills by retrieving data from APIs and analying weather data for a hypothetical travel search engine. I utilized Python, decision and repetition statements, data structures, Pandas, Matplotlib, and SciPy Statistics to successfully complete my objectives. This work is displayed in the 'WeatherPy.ipynb' and 'VacationPy.ipynb' files.
+In this project, I performed data analysis, visualization, and statistical skills by retrieving data from APIs and analying weather data for a hypothetical travel search engine. I utilized Python, decision and repetition statements, data structures, Pandas, Matplotlib, and SciPy Statistics to successfully complete my objectives. This work is displayed in the 'WeatherPy.ipynb' and 'VacationPy.ipynb' files.
 
 Furthermore, I enhanced the project by again retrieving data from the Open Weather and Google Maps APIs to create a new city-based weather database with a new feature: 'current description' of the weather. I then used gmaps to create an interactive map with pop-up markers for every city in the database, showing markers based on user inputed search criteria. Additionally, I created a vacation itinerary based on a close cluster of destinations (Spain used in the example). The itinerary includes a map with a highlighted driving directions route, and an additional map with pop-up markers decribing the itinerary destinations' weather.   
 
